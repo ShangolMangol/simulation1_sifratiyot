@@ -6,4 +6,4 @@ vlog alu64bit.sv
 vlog alu64bit_test.sv
 
 restart -f
-run 6000
+run 7000

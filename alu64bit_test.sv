@@ -21,32 +21,22 @@ alu64bit uut (
 );
 
 
-genvar i;
-generate
-    for (i = 0; i< 64; i++) begin
-        assign a[i]=1'b0;
-        assign b[i]=1'b1;     
-    end
-endgenerate
-
 
 initial begin
-    // genvar i;
-    // generate
-    //     for (i = 0; i< 64; i++) begin
-    //         a[i]=1'b0;
-    //         b[i]=1'b0;     
-    //     end
-    // endgenerate
-    cin=1'b0;
-    op[0]=1'b0;
+
+    a={64{1'b0}};
+    b={64{1'b0}};
+    cin=1'b1;
+    op[0]=1'b1;
     op[1]=1'b1;   
 
-    #2356
+    #3000
+    op[0]=1'b0;
+
+
+    #1000
     op[0]=1'b1;
 
-    #2356
-    op[0]=1'b0;
 
 end
 // End of your code

@@ -11,7 +11,7 @@ cModel Technology
 Z0 dC:/Technion/044252_Sifratiyot/simulation1/sim1_files
 valu1bit
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1671472128
+Z2 !s110 1671641786
 !i10b 1
 !s100 >6^bCAF_8aFk3bSb>JVW30
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -22,20 +22,20 @@ R0
 w1671469521
 8alu1bit.sv
 Falu1bit.sv
-!i122 117
+!i122 237
 L0 2 81
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1671472128.000000
+Z6 !s108 1671641786.000000
 !s107 alu1bit.sv|
 !s90 -reportprogress|300|alu1bit.sv|
 !i113 1
 Z7 tCvgOpt 0
 valu64bit
 R1
-Z8 !s110 1671472129
+R2
 !i10b 1
 !s100 ]@5HL=8f7Hg>GzgbDRan80
 R3
@@ -46,37 +46,37 @@ R0
 w1671470474
 8alu64bit.sv
 Falu64bit.sv
-!i122 118
+!i122 238
 L0 2 48
 R5
 r1
 !s85 0
 31
-Z9 !s108 1671472129.000000
+R6
 !s107 alu64bit.sv|
 !s90 -reportprogress|300|alu64bit.sv|
 !i113 1
 R7
 valu64bit_test
 R1
-R8
+!s110 1671641787
 !i10b 1
-!s100 eGZUFGhUK1m6>BBSz?<E52
+!s100 0YMGii4FRB7O_c4iN2K8m0
 R3
-IhVGIz4Z1JmDK0zX[KGWjI2
+INk:hY<3l8LhbJObgazUce1
 R4
 S1
 R0
-w1671472122
+w1671641782
 8alu64bit_test.sv
 Falu64bit_test.sv
-!i122 119
-L0 2 53
+!i122 239
+L0 2 43
 R5
 r1
 !s85 0
 31
-R9
+!s108 1671641787.000000
 !s107 alu64bit_test.sv|
 !s90 -reportprogress|300|alu64bit_test.sv|
 !i113 1
@@ -94,7 +94,7 @@ R0
 w1671467856
 8fas.sv
 Ffas.sv
-!i122 116
+!i122 236
 L0 2 99
 R5
 r1
@@ -131,7 +131,7 @@ r1
 R7
 vmux2
 R1
-!s110 1671472127
+R2
 !i10b 1
 !s100 ^bOF7mTZiYQBzFdKidoDj3
 R3
@@ -142,13 +142,13 @@ R0
 w1671464153
 8mux2.sv
 Fmux2.sv
-!i122 114
+!i122 234
 L0 2 70
 R5
 r1
 !s85 0
 31
-Z10 !s108 1671472127.000000
+!s108 1671641785.000000
 !s107 mux2.sv|
 !s90 -reportprogress|300|mux2.sv|
 !i113 1
@@ -166,13 +166,13 @@ R0
 w1671462130
 8mux4.sv
 Fmux4.sv
-!i122 115
-Z11 L0 2 36
+!i122 235
+Z8 L0 2 36
 R5
 r1
 !s85 0
 31
-R10
+R6
 !s107 mux4.sv|
 !s90 -reportprogress|300|mux4.sv|
 !i113 1
@@ -191,7 +191,7 @@ w1671464711
 8mux4_test.sv
 Fmux4_test.sv
 !i122 32
-R11
+R8
 R5
 r1
 !s85 0
@@ -215,7 +215,7 @@ w1670866168
 8libcells/NAND2.sv
 Flibcells/NAND2.sv
 !i122 0
-Z12 L0 1 12
+Z9 L0 1 12
 R5
 r1
 !s85 0
@@ -236,11 +236,11 @@ I0iI5_iXMT4Q7i?KEf[N]O0
 R4
 S1
 R0
-Z13 w1670866169
+Z10 w1670866169
 8libcells/OR2.sv
 Flibcells/OR2.sv
 !i122 1
-R12
+R9
 R5
 r1
 !s85 0
@@ -261,11 +261,11 @@ IhoPC_jLXLRUdRzB6hF8L70
 R4
 S1
 R0
-R13
+R10
 8libcells/XNOR2.sv
 Flibcells/XNOR2.sv
 !i122 2
-R12
+R9
 R5
 r1
 !s85 0
